@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    color: palevioletred;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: x-large;
+     overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.form-text{
+    color: white;
+    position: relative;
+    inset-inline-start: 530px;
+    inset-block-start: 100px;
+
+}
+
+#exampleInputEmail1{
+    position: relative;
+    inset-inline-start: 530px;
+    inline-size: 400px;
+    block-size: 40px;
+    inset-block-start: 100px;
+
+}
+#exampleInputPassword1{
+    position: relative;
+    inset-inline-start: 530px;
+    inline-size: 400px;
+    block-size: 40px; 
+    inset-block-start: 100px;
+
+}
+label{
+    position: relative;
+    inset-inline-start: 530px;
+    inset-block-start: 100px;
+}
+button{
+    position: relative;
+    inset-inline-start: 530px;
+    inset-block-start: 100px;
+
+}
+.tit{
+    position: relative;
+    inset-inline-start: 30px;
+    inset-block-start: 30px;
+font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+::-webkit-scrollbar {
+    inline-size: 12px; /* Width of the scrollbar */
+    block-size: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: palevioletred; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+    border: 3px solid #000000; /* Padding around scrollbar thumb */
+}
+
+.alert-danger{
+    position: relative;
+    inset-block-start: 50px;
+}
+
+  #crr{
+    position: relative;
+    inset-inline-start: 530px;
+    inset-block-start: 100px;
+
+  }
+
+
+
+
+
+
+  .btn-signin {
+    background-color: palevioletred;
+    color: #fff;
+    border: 1px solid palevioletred;
+}
+.btn-signin:hover {
+    background-color: rgb(187, 98, 127);
+    border-color: (187, 98, 127);
+    color: #fff;
+}
+
+
+.github {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+.github:hover {
+ 
+    color: #000000;
+}
+
+#logo{
+    position: relative;
+    left :400px ;
+}
+
+
+
+#nn{
+    position: relative;
+    left : 400px;
+}
+
+

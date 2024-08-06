@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    color: palevioletred;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: x-large;
+     overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#logo{
+    position: relative;
+    inset-inline-end: 20px;
+}
+
+
+
+
+.sidebar{
+    position: fixed;
+    left : 0;
+    top : 0;
+    bottom : 0;
+    width : 196px;
+    background-color: rgb(39, 39, 39);
+    padding: 25px;
+}
+
+.sidebar .logo img{
+    width : 160px;
+}
+.sidebar .navigation ul{
+    list-style : none;
+    margin-top : 20px;
+}
+.sidebar .navigation ul li{
+    padding: 10px 0px;
+}
+
+.sidebar .navigation ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus{
+    color: white;
+}
+
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa{
+    color: white;
+}
+
+#head{
+    color: palevioletred;
+    position: relative;
+    inset-inline-start: 15px;
+}
+
+#se{
+    background-color: black;
+    position: relative;
+    left : 1270px;
+    top : 30px;
+    border-radius: 7px;
+    color: white;
+}
+#ic{
+    position: relative;
+
+    left : 60px;
+    top : 70px;
+}
+
+#st{
+    position: relative;
+    left : 280px;
+}
+
+
+
+
+::-webkit-scrollbar {
+    inline-size: 12px; /* Width of the scrollbar */
+    block-size: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: palevioletred; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+    border: 3px solid #000000; /* Padding around scrollbar thumb */
+}
+
+
+#nm {
+    background-color: palevioletred;
+    color: #fff;
+    border: 1px solid palevioletred;/* Change to your desired color */
+}
+
+#nm:hover {
+    background-color: rgb(187, 98, 127);
+    border-color: (187, 98, 127);
+    color: #fff;
+}
